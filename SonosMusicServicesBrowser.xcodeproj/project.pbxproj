@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1273BA21838328900250963 /* SonosMusicServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1273BA11838328900250963 /* SonosMusicServiceManager.m */; };
+		D12B67ED183DE0D0000931CB /* MusicServicesOauthLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12B67EC183DE0D0000931CB /* MusicServicesOauthLoginViewController.m */; };
+		D12B67EF183F23B8000931CB /* rdioServices.xml in Resources */ = {isa = PBXBuildFile; fileRef = D12B67EE183F23B7000931CB /* rdioServices.xml */; };
+		D12B67F2183F3D52000931CB /* SonosMusicServicePandora.m in Sources */ = {isa = PBXBuildFile; fileRef = D12B67F1183F3D52000931CB /* SonosMusicServicePandora.m */; };
+		D13C83931839DEF900751BC0 /* MusicServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13C83921839DEF900751BC0 /* MusicServicesViewController.m */; };
+		D13C83961839E40100751BC0 /* MusicServicesLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13C83951839E40100751BC0 /* MusicServicesLoginViewController.m */; };
 		D14B82D9183023D800F8B7DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14B82D8183023D800F8B7DA /* Foundation.framework */; };
 		D14B82DB183023D800F8B7DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14B82DA183023D800F8B7DA /* CoreGraphics.framework */; };
 		D14B82DD183023D800F8B7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14B82DC183023D800F8B7DA /* UIKit.framework */; };
@@ -21,6 +27,20 @@
 		D14B82FA183023D900F8B7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14B82DC183023D800F8B7DA /* UIKit.framework */; };
 		D14B8302183023D900F8B7DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D14B8300183023D900F8B7DA /* InfoPlist.strings */; };
 		D14B8304183023D900F8B7DA /* SonosMusicServicesBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B8303183023D900F8B7DA /* SonosMusicServicesBrowserTests.m */; };
+		D14B830F1830243B00F8B7DA /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B830E1830243B00F8B7DA /* XMLReader.m */; };
+		D14B83121830244100F8B7DA /* UPNPDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B83111830244100F8B7DA /* UPNPDiscovery.m */; };
+		D14B831B1830245200F8B7DA /* SonosConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B83141830245200F8B7DA /* SonosConnection.m */; };
+		D14B831C1830245200F8B7DA /* SonosController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B83161830245200F8B7DA /* SonosController.m */; };
+		D14B831D1830245200F8B7DA /* SonosInput.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B83181830245200F8B7DA /* SonosInput.m */; };
+		D14B831E1830245200F8B7DA /* SonosInputStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B831A1830245200F8B7DA /* SonosInputStore.m */; };
+		D14B832118302E1B00F8B7DA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B832018302E1B00F8B7DA /* GCDAsyncUdpSocket.m */; };
+		D14B83261830366B00F8B7DA /* SonosMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B83251830366B00F8B7DA /* SonosMusicService.m */; };
+		D14B8329183054E600F8B7DA /* SonosMusicServiceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B8328183054E600F8B7DA /* SonosMusicServiceItem.m */; };
+		D14B832C1830595100F8B7DA /* MusicBroswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B832B1830595100F8B7DA /* MusicBroswerViewController.m */; };
+		D19739AA1839942E00D7EF42 /* SonosMusicServiceItemCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = D19739A91839942E00D7EF42 /* SonosMusicServiceItemCollection.m */; };
+		D19739AD1839944400D7EF42 /* SonosMusicServiceItemMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = D19739AC1839944400D7EF42 /* SonosMusicServiceItemMedia.m */; };
+		D1E7E171184C0A9A00F3DE38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E7E170184C0A9A00F3DE38 /* Security.framework */; };
+		D1E7E173184C0C3F00F3DE38 /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E172184C0C3F00F3DE38 /* blowfish.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1273BA01838328900250963 /* SonosMusicServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosMusicServiceManager.h; sourceTree = "<group>"; };
+		D1273BA11838328900250963 /* SonosMusicServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosMusicServiceManager.m; sourceTree = "<group>"; };
+		D12B67EB183DE0D0000931CB /* MusicServicesOauthLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicServicesOauthLoginViewController.h; sourceTree = "<group>"; };
+		D12B67EC183DE0D0000931CB /* MusicServicesOauthLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicServicesOauthLoginViewController.m; sourceTree = "<group>"; };
+		D12B67EE183F23B7000931CB /* rdioServices.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rdioServices.xml; sourceTree = "<group>"; };
+		D12B67F0183F3D52000931CB /* SonosMusicServicePandora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosMusicServicePandora.h; sourceTree = "<group>"; };
+		D12B67F1183F3D52000931CB /* SonosMusicServicePandora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosMusicServicePandora.m; sourceTree = "<group>"; };
+		D13C83911839DEF800751BC0 /* MusicServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicServicesViewController.h; sourceTree = "<group>"; };
+		D13C83921839DEF900751BC0 /* MusicServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicServicesViewController.m; sourceTree = "<group>"; };
+		D13C83941839E40100751BC0 /* MusicServicesLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicServicesLoginViewController.h; sourceTree = "<group>"; };
+		D13C83951839E40100751BC0 /* MusicServicesLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicServicesLoginViewController.m; sourceTree = "<group>"; };
 		D14B82D5183023D800F8B7DA /* SonosMusicServicesBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonosMusicServicesBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14B82D8183023D800F8B7DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D14B82DA183023D800F8B7DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +84,33 @@
 		D14B82FF183023D900F8B7DA /* SonosMusicServicesBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SonosMusicServicesBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		D14B8301183023D900F8B7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D14B8303183023D900F8B7DA /* SonosMusicServicesBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonosMusicServicesBrowserTests.m; sourceTree = "<group>"; };
+		D14B830D1830243A00F8B7DA /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLReader.h; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/Vendor/XMLReader.h; sourceTree = "<group>"; };
+		D14B830E1830243B00F8B7DA /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/Vendor/XMLReader.m; sourceTree = "<group>"; };
+		D14B83101830244100F8B7DA /* UPNPDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPNPDiscovery.h; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/UPNPDiscovery.h; sourceTree = "<group>"; };
+		D14B83111830244100F8B7DA /* UPNPDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPNPDiscovery.m; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/UPNPDiscovery.m; sourceTree = "<group>"; };
+		D14B83131830245200F8B7DA /* SonosConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonosConnection.h; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosConnection.h; sourceTree = "<group>"; };
+		D14B83141830245200F8B7DA /* SonosConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonosConnection.m; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosConnection.m; sourceTree = "<group>"; };
+		D14B83151830245200F8B7DA /* SonosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonosController.h; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosController.h; sourceTree = "<group>"; };
+		D14B83161830245200F8B7DA /* SonosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonosController.m; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosController.m; sourceTree = "<group>"; };
+		D14B83171830245200F8B7DA /* SonosInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonosInput.h; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosInput.h; sourceTree = "<group>"; };
+		D14B83181830245200F8B7DA /* SonosInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonosInput.m; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosInput.m; sourceTree = "<group>"; };
+		D14B83191830245200F8B7DA /* SonosInputStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonosInputStore.h; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosInputStore.h; sourceTree = "<group>"; };
+		D14B831A1830245200F8B7DA /* SonosInputStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonosInputStore.m; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/SonosInputStore.m; sourceTree = "<group>"; };
+		D14B831F18302E1B00F8B7DA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		D14B832018302E1B00F8B7DA /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = ../../../HomeAutomation/iOS/Libraries/Sonos/Play/Play/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		D14B83241830366B00F8B7DA /* SonosMusicService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosMusicService.h; sourceTree = "<group>"; };
+		D14B83251830366B00F8B7DA /* SonosMusicService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosMusicService.m; sourceTree = "<group>"; };
+		D14B8327183054E600F8B7DA /* SonosMusicServiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosMusicServiceItem.h; sourceTree = "<group>"; };
+		D14B8328183054E600F8B7DA /* SonosMusicServiceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosMusicServiceItem.m; sourceTree = "<group>"; };
+		D14B832A1830595100F8B7DA /* MusicBroswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicBroswerViewController.h; sourceTree = "<group>"; };
+		D14B832B1830595100F8B7DA /* MusicBroswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicBroswerViewController.m; sourceTree = "<group>"; };
+		D19739A81839942E00D7EF42 /* SonosMusicServiceItemCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosMusicServiceItemCollection.h; sourceTree = "<group>"; };
+		D19739A91839942E00D7EF42 /* SonosMusicServiceItemCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosMusicServiceItemCollection.m; sourceTree = "<group>"; };
+		D19739AB1839944400D7EF42 /* SonosMusicServiceItemMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosMusicServiceItemMedia.h; sourceTree = "<group>"; };
+		D19739AC1839944400D7EF42 /* SonosMusicServiceItemMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosMusicServiceItemMedia.m; sourceTree = "<group>"; };
+		D1E7E170184C0A9A00F3DE38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D1E7E172184C0C3F00F3DE38 /* blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blowfish.c; sourceTree = "<group>"; };
+		D1E7E174184C0F3A00F3DE38 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E7E171184C0A9A00F3DE38 /* Security.framework in Frameworks */,
 				D14B82DB183023D800F8B7DA /* CoreGraphics.framework in Frameworks */,
 				D14B82DD183023D800F8B7DA /* UIKit.framework in Frameworks */,
 				D14B82D9183023D800F8B7DA /* Foundation.framework in Frameworks */,
@@ -101,6 +160,7 @@
 		D14B82D7183023D800F8B7DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1E7E170184C0A9A00F3DE38 /* Security.framework */,
 				D14B82D8183023D800F8B7DA /* Foundation.framework */,
 				D14B82DA183023D800F8B7DA /* CoreGraphics.framework */,
 				D14B82DC183023D800F8B7DA /* UIKit.framework */,
@@ -112,6 +172,9 @@
 		D14B82DE183023D800F8B7DA /* SonosMusicServicesBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				D12B67EE183F23B7000931CB /* rdioServices.xml */,
+				D14B83231830362900F8B7DA /* Browse */,
+				D14B83221830361D00F8B7DA /* Sonos */,
 				D14B82E7183023D900F8B7DA /* AppDelegate.h */,
 				D14B82E8183023D900F8B7DA /* AppDelegate.m */,
 				D14B82EA183023D900F8B7DA /* Main.storyboard */,
@@ -119,6 +182,14 @@
 				D14B82EE183023D900F8B7DA /* ViewController.m */,
 				D14B82F0183023D900F8B7DA /* Images.xcassets */,
 				D14B82DF183023D900F8B7DA /* Supporting Files */,
+				D14B832A1830595100F8B7DA /* MusicBroswerViewController.h */,
+				D14B832B1830595100F8B7DA /* MusicBroswerViewController.m */,
+				D13C83911839DEF800751BC0 /* MusicServicesViewController.h */,
+				D13C83921839DEF900751BC0 /* MusicServicesViewController.m */,
+				D13C83941839E40100751BC0 /* MusicServicesLoginViewController.h */,
+				D13C83951839E40100751BC0 /* MusicServicesLoginViewController.m */,
+				D12B67EB183DE0D0000931CB /* MusicServicesOauthLoginViewController.h */,
+				D12B67EC183DE0D0000931CB /* MusicServicesOauthLoginViewController.m */,
 			);
 			path = SonosMusicServicesBrowser;
 			sourceTree = "<group>";
@@ -150,6 +221,48 @@
 				D14B8300183023D900F8B7DA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D14B83221830361D00F8B7DA /* Sonos */ = {
+			isa = PBXGroup;
+			children = (
+				D14B831F18302E1B00F8B7DA /* GCDAsyncUdpSocket.h */,
+				D14B832018302E1B00F8B7DA /* GCDAsyncUdpSocket.m */,
+				D14B83131830245200F8B7DA /* SonosConnection.h */,
+				D14B83141830245200F8B7DA /* SonosConnection.m */,
+				D14B83151830245200F8B7DA /* SonosController.h */,
+				D14B83161830245200F8B7DA /* SonosController.m */,
+				D14B83171830245200F8B7DA /* SonosInput.h */,
+				D14B83181830245200F8B7DA /* SonosInput.m */,
+				D14B83191830245200F8B7DA /* SonosInputStore.h */,
+				D14B831A1830245200F8B7DA /* SonosInputStore.m */,
+				D14B83101830244100F8B7DA /* UPNPDiscovery.h */,
+				D14B83111830244100F8B7DA /* UPNPDiscovery.m */,
+				D14B830D1830243A00F8B7DA /* XMLReader.h */,
+				D14B830E1830243B00F8B7DA /* XMLReader.m */,
+			);
+			name = Sonos;
+			sourceTree = "<group>";
+		};
+		D14B83231830362900F8B7DA /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				D1E7E174184C0F3A00F3DE38 /* blowfish.h */,
+				D1E7E172184C0C3F00F3DE38 /* blowfish.c */,
+				D1273BA01838328900250963 /* SonosMusicServiceManager.h */,
+				D1273BA11838328900250963 /* SonosMusicServiceManager.m */,
+				D14B83241830366B00F8B7DA /* SonosMusicService.h */,
+				D14B83251830366B00F8B7DA /* SonosMusicService.m */,
+				D14B8327183054E600F8B7DA /* SonosMusicServiceItem.h */,
+				D14B8328183054E600F8B7DA /* SonosMusicServiceItem.m */,
+				D19739A81839942E00D7EF42 /* SonosMusicServiceItemCollection.h */,
+				D19739A91839942E00D7EF42 /* SonosMusicServiceItemCollection.m */,
+				D19739AB1839944400D7EF42 /* SonosMusicServiceItemMedia.h */,
+				D19739AC1839944400D7EF42 /* SonosMusicServiceItemMedia.m */,
+				D12B67F0183F3D52000931CB /* SonosMusicServicePandora.h */,
+				D12B67F1183F3D52000931CB /* SonosMusicServicePandora.m */,
+			);
+			name = Browse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14B82F1183023D900F8B7DA /* Images.xcassets in Resources */,
+				D12B67EF183F23B8000931CB /* rdioServices.xml in Resources */,
 				D14B82E3183023D900F8B7DA /* InfoPlist.strings in Resources */,
 				D14B82EC183023D900F8B7DA /* Main.storyboard in Resources */,
 			);
@@ -249,8 +363,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12B67ED183DE0D0000931CB /* MusicServicesOauthLoginViewController.m in Sources */,
+				D14B831C1830245200F8B7DA /* SonosController.m in Sources */,
+				D14B8329183054E600F8B7DA /* SonosMusicServiceItem.m in Sources */,
+				D14B831D1830245200F8B7DA /* SonosInput.m in Sources */,
+				D14B831B1830245200F8B7DA /* SonosConnection.m in Sources */,
+				D19739AA1839942E00D7EF42 /* SonosMusicServiceItemCollection.m in Sources */,
+				D1273BA21838328900250963 /* SonosMusicServiceManager.m in Sources */,
+				D13C83961839E40100751BC0 /* MusicServicesLoginViewController.m in Sources */,
 				D14B82EF183023D900F8B7DA /* ViewController.m in Sources */,
+				D14B832C1830595100F8B7DA /* MusicBroswerViewController.m in Sources */,
 				D14B82E9183023D900F8B7DA /* AppDelegate.m in Sources */,
+				D14B83261830366B00F8B7DA /* SonosMusicService.m in Sources */,
+				D19739AD1839944400D7EF42 /* SonosMusicServiceItemMedia.m in Sources */,
+				D13C83931839DEF900751BC0 /* MusicServicesViewController.m in Sources */,
+				D14B83121830244100F8B7DA /* UPNPDiscovery.m in Sources */,
+				D1E7E173184C0C3F00F3DE38 /* blowfish.c in Sources */,
+				D14B832118302E1B00F8B7DA /* GCDAsyncUdpSocket.m in Sources */,
+				D14B831E1830245200F8B7DA /* SonosInputStore.m in Sources */,
+				D14B830F1830243B00F8B7DA /* XMLReader.m in Sources */,
+				D12B67F2183F3D52000931CB /* SonosMusicServicePandora.m in Sources */,
 				D14B82E5183023D900F8B7DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +592,7 @@
 				D14B8309183023D900F8B7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D14B830A183023DA00F8B7DA /* Build configuration list for PBXNativeTarget "SonosMusicServicesBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +601,7 @@
 				D14B830C183023DA00F8B7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

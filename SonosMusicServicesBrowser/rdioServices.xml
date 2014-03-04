@@ -1,0 +1,134 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:ListAvailableServicesResponse xmlns:u="urn:schemas-upnp-org:service:MusicServices:1"><AvailableServiceDescriptorList></AvailableServiceDescriptorList><AvailableServiceTypeList>36871,36615,13575,11271,11015,10759,10503,9735,9479,9223,8455,7431,6663,6151,4359,3847,3335,3079,2823,1799,1543,775,11,3,1</AvailableServiceTypeList><AvailableServiceListVersion>RINCON_000E588E166801400:92</AvailableServiceListVersion></u:ListAvailableServicesResponse></s:Body></s:Envelope>
+
+<Services SchemaVersion="1"><Service Id="144" Name="Calm Radio" Version="1.1" Uri="https://calmradio.com/sonos/" SecureUri="https://calmradio.com/sonos/" ContainerType="SoundLab" Capabilities="513" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="1" Uri="https://calmradio.com/sonos/strings.xml"/></Presentation></Service><Service Id="143" Name="Murfie HiFi" Version="1.1" Uri="http://pacific-island-4540.herokuapp.com/" SecureUri="https://pacific-island-4540.herokuapp.com/" ContainerType="SoundLab" Capabilities="513" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="300"/><Presentation><Strings Version="3" Uri="http://pacific-island-4540.herokuapp.com/strings.xml"/></Presentation></Service><Service Id="53" Name="MLB.com Gameday Audio (Beta)" Version="1.1" Uri="http://mlb.mlb.com/ce/sonos/default.jsp" SecureUri="https://securea.mlb.com/ce/sonos/default.jsp" ContainerType="SoundLab" Capabilities="1024" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="3" Uri="http://mlb.mlb.com/ce/sonos/stringTable.xml"/></Presentation></Service><Service Id="44" Name="The Hype Machine" Version="1.1" Uri="http://api.hypem.com/api/sonos" SecureUri="https://api.hypem.com/api/sonos" ContainerType="MService" Capabilities="579" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="3" Uri="http://hypem.com/strings_sonos.php"/><PresentationMap Version="3" Uri="http://sonos-pmap.ws.sonos.com/hypemachine_pmap.2.xml"/></Presentation></Service><Service Id="43" Name="8tracks" Version="1.1" Uri="http://8tracks.com/simple_sonos/action" SecureUri="http://8tracks.com/simple_sonos/action" ContainerType="MService" Capabilities="577" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="1" Uri="http://8tracks.com/simple_sonos/strings"/><PresentationMap Version="2" Uri="http://sonos-pmap.ws.sonos.com/8tracks_pmap.1.xml"/></Presentation></Service><Service Id="42" Name="Batanga" Version="1.1" Uri="http://sonos.batanga.com/batanga.asmx" SecureUri="https://sonos.batanga.com:4343/batanga.asmx" ContainerType="MService" Capabilities="513" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="1" Uri="http://sonos.batanga.com/strings.xml"/><PresentationMap Version="1" Uri="http://sonos.batanga.com/pmap.xml"/></Presentation></Service><Service Id="41" Name="rara.com" Version="1.1" Uri="http://intgn-p022.ribob01.net/sonos/server" SecureUri="https://intgn-p022.ribob01.net/sonos/server" ContainerType="SoundLab" Capabilities="579" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="300"/><Presentation><Strings Version="1" Uri="http://intgn-p022.ribob01.net/sonos/static/rara-global-ms/strings.xml"/><PresentationMap Version="2" Uri="http://sonos-pmap.ws.sonos.com/rara_pmap.1.xml"/></Presentation></Service><Service Id="38" Name="7digital" Version="1.1" Uri="http://sonos-service.7digital.net/sonos.asmx" SecureUri="https://sonos-service.7digital.net/sonos.asmx" ContainerType="MService" Capabilities="513" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="1" Uri="http://sonos-service.7digital.net/stringtables.xml"/><PresentationMap Version="2" Uri="http://sonos-pmap.ws.sonos.com/7digital_pmap.1.xml"/></Presentation></Service><Service Id="37" Name="SiriusXM" Version="1.1" Uri="http://siriusxm.ws.sonos.com/smapi" SecureUri="https://siriusxm.ws.sonos.com/smapi" ContainerType="MService" Capabilities="0" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="1800"/><Presentation><Strings Version="3" Uri="http://siriusxm-static.ws.sonos.com/strings.xml"/><PresentationMap Version="1" Uri="http://sonos-pmap.ws.sonos.com/sirius_pmap.1.xml"/></Presentation></Service><Service Id="36" Name="Hearts of Space" Version="1.1" Uri="http://sonos.hos.com/SOAP/Server1.2.php" SecureUri="https://sonos.hos.com/SOAP/Server1.2.php" ContainerType="MService" Capabilities="512" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="1200"/><Presentation><Strings Version="2" Uri="http://sonos.hos.com/DATA/StringResources1.2.xml"/></Presentation></Service><Service Id="33" Name="Murfie" Version="1.1" Uri="http://soap.murfie.com/" SecureUri="https://soap.murfie.com/" ContainerType="MService" Capabilities="513" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="300"/><Presentation><Strings Version="3" Uri="http://soap.murfie.com/strings.xml"/></Presentation></Service><Service Id="29" Name="Songza" Version="1.1" Uri="http://songza.com/devices/sonos/api/1.1/" SecureUri="https://songza.com/devices/sonos/api/1.1/" ContainerType="MService" Capabilities="577" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="300"/><Presentation><Strings Version="7" Uri="http://songza.com/devices/sonos/api/1.1/static/strings.xml"/><PresentationMap Version="2" Uri="http://sonos-pmap.ws.sonos.com/songza_pmap.2.xml"/></Presentation></Service><Service Id="26" Name="Amazon Cloud Player" Version="1.1" Uri="https://cloudplayer.ws.sonos.com/smapi" SecureUri="https://cloudplayer.ws.sonos.com/smapi" ContainerType="MService" Capabilities="577" MaxMessagingChars="0"><Policy Auth="DeviceLink" PollInterval="300"/><Presentation><Strings Version="8" Uri="http://s3.amazonaws.com/amazonCloudPlayer/strings.xml"/><PresentationMap Version="7" Uri="http://sonos-pmap.ws.sonos.com/amazon_pmap.1.xml"/></Presentation></Service><Service Id="24" Name="DAR.fm Record Radio" Version="1.1" Uri="http://dar.fm/SonosServer.php" SecureUri="http://dar.fm/SonosServer.php" ContainerType="MService" Capabilities="512" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="2" Uri="http://dar.fm/Sonos.xml"/></Presentation></Service><Service Id="254" Name="TuneIn" Version="1.1" Uri="http://legato.radiotime.com/Radio.asmx" SecureUri="http://legato.radiotime.com/Radio.asmx" ContainerType="MService" Capabilities="0" MaxMessagingChars="0"><Policy Auth="Anonymous" PollInterval="0"/><Presentation></Presentation></Service><Service Id="17" Name="Slacker" Version="1.1" Uri="http://sonos.slacker.com/wsv1/sonos" SecureUri="https://sonos.slacker.com/wsv1/sonos" ContainerType="MService" Capabilities="579" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="1" Uri="http://images.slacker.com/sonos/sonos_strings.xml"/><PresentationMap Version="5" Uri="http://sonos-pmap.ws.sonos.com/slacker_pmap.2.xml"/></Presentation></Service><Service Id="15" Name="MOG" Version="1.1" Uri="http://sonos1.mog.com/gateway" SecureUri="https://sonos1.mog.com/gateway" ContainerType="MService" Capabilities="627" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="1" Uri="http://update-services.sonos.com/services/Str/mog.xml"/><PresentationMap Version="1" Uri="http://sonos-pmap.ws.sonos.com/mog_pmap.1.xml"/></Presentation></Service><Service Id="13" Name="Stitcher SmartRadio" Version="1.1" Uri="http://www.stitcher.com/Service/Sonos/Sonos.php" SecureUri="http://www.stitcher.com/Service/Sonos/Sonos.php" ContainerType="MService" Capabilities="579" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="60"/><Presentation><Strings Version="2" Uri="http://www.stitcher.com/Service/Sonos/stitcher_string.xml"/><PresentationMap Version="3" Uri="http://sonos-pmap.ws.sonos.com/stitcher_pmap.2.xml"/></Presentation></Service><Service Id="12" Name="Spotify" Version="1.1" Uri="https://spotify.ws.sonos.com/smapi" SecureUri="https://spotify.ws.sonos.com/smapi" ContainerType="MService" Capabilities="2563" MaxMessagingChars="0"><Policy Auth="DeviceLink" PollInterval="30"/><Presentation><Strings Version="9" Uri="http://spotify-static-resources.s3.amazonaws.com/strings.xml"/><PresentationMap Version="3" Uri="http://sonos-pmap.ws.sonos.com/spotify_pmap.2.xml"/></Presentation></Service><Service Id="11" Name="Rdio" Version="1.1" Uri="https://www.rdio.com/moapi/" SecureUri="https://www.rdio.com/moapi/" ContainerType="MService" Capabilities="595" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="60"/><Presentation><Strings Version="2" Uri="http://update-services.sonos.com/services/Str/rdio.xml"/><PresentationMap Version="2" Uri="http://sonos-pmap.ws.sonos.com/rdio_pmap.2.xml"/></Presentation></Service><Service Id="7" Name="Wolfgang&apos;s Vault" Version="1.1" Uri="http://concerts.wolfgangsvault.com/ws/MOAPI.asmx" SecureUri="http://concerts.wolfgangsvault.com/ws/MOAPI.asmx" ContainerType="MService" Capabilities="3" MaxMessagingChars="0"><Policy Auth="UserId" PollInterval="30"/><Presentation><Strings Version="3" Uri="http://update-services.sonos.com/services/Str/wv.xml"/><PresentationMap Version="1" Uri="http://sonos-pmap.ws.sonos.com/wv_pmap.1.xml"/></Presentation></Service><Service Id="6" Name="iheartradio" Version="1.1" Uri="http://iheartradio.com/cc-common/sonos/production/WSDLAPI.php" SecureUri="http://iheartradio.com/cc-common/sonos/production/WSDLAPI.php" ContainerType="MService" Capabilities="0" MaxMessagingChars="0"><Policy Auth="Anonymous" PollInterval="0"/><Presentation><Strings Version="1" Uri="http://update-services.sonos.com/services/Str/ihradio.xml"/></Presentation></Service><Service Id="3" Name="Twitter" Version="1.2" Uri="https://twitter.sonos-ws-eu.com/SocialMsg/Twitter.php" SecureUri="https://twitter.sonos-ws-eu.com/SocialMsg/Twitter.php" ContainerType="MService" Capabilities="256" MaxMessagingChars="140"><Policy Auth="Stateless" PollInterval="0"/><Presentation></Presentation></Service></Services&gt;
+    
+    2013-11-21 22:39:55.796 SonosMusicServicesBrowser[65636:4f0b] FoundSonos
+    2013-11-21 22:39:56.407 SonosMusicServicesBrowser[65636:70b] {
+    0 =     (
+    iheartradio,
+    SiriusXM,
+    TuneIn
+    );
+    1024 =     (
+    "MLB.com Gameday Audio (Beta)"
+    );
+    256 =     (
+    Twitter
+    );
+    2563 =     (
+    Spotify
+    );
+    3 =     (
+    "Wolfgang's Vault"
+    );
+    512 =     (
+    "DAR.fm Record Radio",
+    "Hearts of Space"
+    );
+    513 =     (
+    Murfie,
+    7digital,
+    Batanga,
+    "Murfie HiFi",
+    "Calm Radio"
+    );
+    577 =     (
+    "Amazon Cloud Player",
+    Songza,
+    8tracks
+    );
+    579 =     (
+    "Stitcher SmartRadio",
+    Slacker,
+    "rara.com",
+    "The Hype Machine"
+    );
+    595 =     (
+    Rdio
+    );
+    627 =     (
+    MOG
+    );
+    }
+>
+
+Slacker Radio:
+
+x-sonosapi-radio:stations%2f418165271%2f42%2fsequence?sid=17&amp;flags=104
+
+<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="000c0068stations%2f418165271%2f42%2fsequence" parentID="00080064stations%2f418165271%2f42" restricted="true"><dc:title>Today&apos;s Hits Radio</dc:title><upnp:class>object.item.audioItem.audioBroadcast</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON4359_drewying@gmail.com</desc></item></DIDL-Lite>
+
+Rdio:
+
+x-sonos-http:_t%3a%3a2976831%3a%3aal%3a%3a244359%3a%3a482279.mp3?sid=11&amp;flags=32
+
+<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="10030020_t%3a%3a2976831%3a%3aal%3a%3a244359%3a%3a482279" parentID="1004006c_al%3a%3a244359%3a%3a482279" restricted="true"><dc:title>Blue Mind</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON2823_drewying@gmail.com</desc></item></DIDL-Lite>
+
+<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="00030020_t%3A%3A2976270%3A%3Aal%3A%3A244359%3A%3A482279" parentID="-1" restricted="true"><dc:title>All My Days</dc:title><desc>SA_RINCON2823_drewying@gmail.com</desc></item></DIDL-Lite>
+
+Sticher:
+
+x-sonos-http:fid%3d31344.mp3?sid=13&flags=32
+
+<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="00030020fid%3d31344" parentID="0006000csid%3d1117874" restricted="true"><dc:title>Marketplace on Stitcher</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON3335_drewying@gmail.com</desc></item></DIDL-Lite>
+
+Amazon:
+
+x-sonos-http:amz%3atr%3a8174f8ef-daeb-4925-996f-a79936d04048.mp3?sid=26&amp;flags=32
+
+<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="00030020amz%3atr%3a8174f8ef-daeb-4925-996f-a79936d04048" parentID="0004006camz%3atrar%3aKILLERS%3aSAM_S_TOWN" restricted="true"><dc:title>Read My Mind</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON6663_X_#Svc6663-0-Token</desc></item></DIDL-Lite>
+
+Radio:
+
+x-sonosapi-stream:s26555?sid=254&amp;flags=32
+
+<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="F00090020s26555" parentID="L" restricted="true"><dc:title>96.3 | X-96 (Alternative Rock)</dc:title><upnp:class>object.item.audioItem.audioBroadcast</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON65031_</desc></item></DIDL-Lite>
+
+</CurrentURIMetaData></u:SetAVTransportURI></s:Body></s:Envelope>
+
+Spotify:
+
+x-sonos-spotify:spotify%3atrack%3a1fh2TfUOtOoXEE8qQynYEC?sid=12&amp;flags=32
+
+<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="00030020spotify%3atrack%3a1fh2TfUOtOoXEE8qQynYEC" parentID="0006006ctoplist%2ftracks%2fregion%2fUS" restricted="true"><dc:title>Counting Stars</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON3079_X_#Svc3079-0-Token</desc></item></DIDL-Lite>
+
+//Pandora info
+POST /services/xmlrpc/?method=user.getStationListChecksum&auth_token=VI8U%2bvZu27EsYFhiU9LQ34UhFEXGI4VHdJgYAdeYS3jhgH3ORgJckGUQ%3d%3d&partner_id=6&user_id=66253344 HTTP/1.1
+CONNECTION: close
+ACCEPT-ENCODING: gzip
+HOST: tuner.pandora.com
+CONTENT-LENGTH: 295
+CONTENT-TYPE: text/xml; charset="utf-8"
+
+<?xml version="1.0"?><methodCall><methodName>user.getStationListChecksum</methodName><params><param><value><struct><member><name>userAuthToken</name><value><string>VI8U+vZu27EsYFhiU9LQ34UhFEXGI4VHdJgYAdeYS3jhgH3ORgJckGUQ==</string></value></member></struct></value></param></params></methodCall>
+
+¿¡¿íh∑TSƒ E 	3@ @`‚¿®Ä–U(\€e PãQÑ ¢†Ä +°'  
+U8ÃÄ~¶óSPOST /services/xmlrpc/?method=user.getStationListChecksum&auth_token=&partner_id=&user_id= HTTP/1.1
+CONNECTION: close
+ACCEPT-ENCODING: gzip
+HOST: tuner.pandora.com
+CONTENT-LENGTH: 237
+CONTENT-TYPE: text/xml; charset="utf-8"
+
+<?xml version="1.0"?><methodCall><methodName>user.getStationListChecksum</methodName><params><param><value><struct><member><name>userAuthToken</name><value><string></string></value></member></struct></value></param></params></methodCall>
+
+TSƒ X¯ZŒ E Ú†c@ @J¿®à¿®Äx€të¯\•Ÿ}ŒÄŒäè  
+ ¸»U8”ˆHTTP/1.1 200 OK
+CONTENT-LENGTH: 291
+CONTENT-TYPE: text/xml; charset="utf-8"
+EXT:
+Server: Linux UPnP/1.0 Sonos/24.0-71060 (ZPS3)
+Connection: close
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:GetStringResponse xmlns:u="urn:schemas-upnp-org:service:SystemProperties:1"><StringValue>110904558</StringValue></u:GetStringResponse></s:Body></s:Envelope>
+
+¿¡¿íh∑TSƒ E çÀ&@ @¨j¿®Ä–U(\€Z P~—'◊•ŸÄ +¿≤  
+U8»…~¶ìáPOST /services/xmlrpc/?method=test.checkLicensing HTTP/1.1
+CONNECTION: close
+ACCEPT-ENCODING: gzip
+HOST: tuner.pandora.com
+CONTENT-LENGTH: 154
+CONTENT-TYPE: text/xml; charset="utf-8"
+
+<?xml version="1.0"?><methodCall><methodName>test.checkLicensing</methodName><params><param><value><struct></struct></value></param></params></methodCall>
+
