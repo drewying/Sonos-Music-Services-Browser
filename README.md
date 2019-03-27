@@ -11,6 +11,4 @@ Clicking on a song will automatically play the track on the first Sonos speaker 
 
 Some code ripped off from Nathan Borrors excelent Play app here: https://github.com/nathanborror/Play
 
-License is "Do whatever you want just don't sue Drew, and if you do use it commercially a shout out is appreciated but not required" 
-
-Cheers.
+This project is dead. No further contributions are expected.
