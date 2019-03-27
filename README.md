@@ -1,4 +1,4 @@
-Sonos-Music-Services-Browser
+Sonos Music Services Browser
 ============================
 
 This is a proof of concept I created for a personal, home control app. Sharing the code to anyone who could use it.
