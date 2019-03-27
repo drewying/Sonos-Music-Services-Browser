@@ -9,6 +9,6 @@ Please note it will only work on music services which have all ready been set-up
 
 Clicking on a song will automatically play the track on the first Sonos speaker found through automatic discovery.
 
-Some code ripped off from Nathan Borrors excelent Play app here: https://github.com/nathanborror/Play
+Some code reused from Nathan Borrors excelent Play app here: https://github.com/nathanborror/Play
 
 This project is dead. No further contributions are expected.
